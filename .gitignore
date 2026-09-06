@@ -29,7 +29,7 @@ jest-stare/
 
 # k8s local secrets
 
-k8s/chatterly/values-secrets.yaml
+#k8s/chatterly/values-secrets.yaml
 
 
 # OS
