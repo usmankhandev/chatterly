@@ -30,7 +30,7 @@ steps:
 
       IMAGE="${{ parameters.acrName }}.azurecr.io/${{ parameters.dockerImage }}:$(Build.BuildId)"
       echo "=== Scanning: $IMAGE ==="
-
+      
       trivy image \
         --severity "${{ parameters.trivySeverity }}" \
         --exit-code ${{ parameters.exitCode }} \
